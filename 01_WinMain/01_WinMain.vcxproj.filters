@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{c41c9b98-a31b-4d9e-82a2-bfabc2c89dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{125a9a4b-d6cf-4037-9e54-0fb4519c206d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Random">
+      <UniqueIdentifier>{219329fd-0bdf-4ce2-b382-6095da14c0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Input">
+      <UniqueIdentifier>{75cd5072-d518-4bc6-841c-5675d8848ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Image">
+      <UniqueIdentifier>{4ad6b531-7d7b-4111-be06-f2bad4da87c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Figure">
+      <UniqueIdentifier>{c81da49d-f8e8-47d3-831a-e79e4d881ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Math">
+      <UniqueIdentifier>{fd572bdf-356e-468e-a803-eca354b8868c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\ImageManager">
+      <UniqueIdentifier>{595cc926-f5ed-4cbd-ae5b-5afef7a3c034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameObject">
+      <UniqueIdentifier>{ce391e20-308d-42f4-aed2-455d8c739de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\IntersectManager">
+      <UniqueIdentifier>{3f43c6b1-dc70-4339-8c18-57d1360b4ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\IntersectManager\FrameEffect">
+      <UniqueIdentifier>{93af1738-7e41-4ef6-b3c8-cec12052d696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameObject\Unit">
+      <UniqueIdentifier>{147c1e98-4297-4fbd-8ef8-4534c82fa18c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameObject\BackGround">
+      <UniqueIdentifier>{15cc313e-60bd-4298-aeb8-1412ba4ab633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameObject\Unit\Bullet">
+      <UniqueIdentifier>{7f50b21b-6c97-4f78-b471-797971926076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameObject\Unit\Enemy">
+      <UniqueIdentifier>{eb7b96e5-65b7-4d9e-8f92-4adfc62009ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameObject\Unit\Enemy\Type">
+      <UniqueIdentifier>{6ab40495-486a-4af4-8b70-6f6c62a0bed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameObject\Unit\Player">
+      <UniqueIdentifier>{417f3865-1179-4a2c-b28d-6f0d80927322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\EnemyManager">
+      <UniqueIdentifier>{9f9f1dd5-7f4d-4033-9ca9-a2495bfa6494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\BulletManager">
+      <UniqueIdentifier>{3e9df838-fd38-44d9-91c2-7e613d37c27a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="01_WinMain.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>FrameWork\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>FrameWork\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>FrameWork\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>FrameWork\Figure</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>FrameWork\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineHeader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>MainGame\GameObject\Unit\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>FrameWork\ImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>MainGame\GameObject\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>MainGame\GameObject\Unit\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameEffect.h">
+      <Filter>MainGame\IntersectManager\FrameEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>MainGame\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>MainGame\BulletManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>MainGame\EnemyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>MainGame\GameObject\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="IntersectManager.h">
+      <Filter>MainGame\IntersectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Roll.h">
+      <Filter>MainGame\GameObject\Unit\Enemy\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>MainGame\GameObject\Unit\Enemy\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Creater.h">
+      <Filter>MainGame\GameObject\Unit\Enemy\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Leader.h">
+      <Filter>MainGame\GameObject\Unit\Enemy\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Nomal.h">
+      <Filter>MainGame\GameObject\Unit\Enemy\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyKind.h">
+      <Filter>MainGame\GameObject\Unit\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>MainGame\GameObject\Unit\Enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01_WinMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame + MainProc.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>FrameWork\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>FrameWork\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>FrameWork\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>FrameWork\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>MainGame\GameObject\Unit\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>FrameWork\ImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>MainGame\GameObject\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>MainGame\GameObject\Unit\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameEffect.cpp">
+      <Filter>MainGame\IntersectManager\FrameEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>MainGame\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>MainGame\BulletManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>MainGame\EnemyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>MainGame\GameObject\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="IntersectManager.cpp">
+      <Filter>MainGame\IntersectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>MainGame\GameObject\Unit\Enemy\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Creater.cpp">
+      <Filter>MainGame\GameObject\Unit\Enemy\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Leader.cpp">
+      <Filter>MainGame\GameObject\Unit\Enemy\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Nomal.cpp">
+      <Filter>MainGame\GameObject\Unit\Enemy\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Roll.cpp">
+      <Filter>MainGame\GameObject\Unit\Enemy\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>MainGame\GameObject\Unit\Enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="01_WinMain.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="01_WinMain.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
